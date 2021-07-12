@@ -13,7 +13,7 @@ namespace TestowyProjekt.AXA
         [SetUp]
         public void Setup()
         {
-            driver = new ChromeDriver();
+            driver = new ChromeDriver(); //wymagana instalacja chromedriver
             driver.Manage().Window.Maximize();
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(50);
         }
